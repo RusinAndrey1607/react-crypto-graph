@@ -1,0 +1,19 @@
+.wrapper__preload {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preload {
+    animation: preload 1.5s ease-out infinite alternate;
+}
+
+@keyframes preload {
+    0% {
+        transform: rotate(-10deg) scale(80%);
+    }
+    100% {
+        transform: rotate(370deg) scale(120%);
+    }
+}
